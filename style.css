@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #FFC233;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+a:hover{
+    color: white;
+}
+
+body{    
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+    height: 100%;
+    padding: 30px;
+    background-size: cover;
+}
+.scroll{
+    position: fixed;
+    width: 100px;
+    right: 15px;
+    bottom: 10px;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    padding: 0px 20px;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+.button_1{
+    background-color: #FF515F;
+    color: white;
+    padding: 5px 20px;
+    font-weight: 600;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.button_1:hover{
+    background-color: #e64956;
+}
+p{
+    font-weight: 800;
+    font-size: 70px;
+    color: #FFC233;
+    text-align: center;
+}
+section{
+    padding-top: 100px;
+}
+.button_2{
+    background-color: #FF515F;
+    color: white;
+    padding: 15px 35px;
+    font-weight: 600;
+    font-size: large;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.button_2:hover{
+    background-color: #e64956;
+    padding: 15px 40px;
+
+}
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
